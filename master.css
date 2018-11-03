@@ -1,0 +1,64 @@
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #000000;
+}
+#newPost{
+  display:inline-block;
+  margin-left: 50px;
+}
+label, input{
+  display: block;
+    margin-bottom: 10px;
+}
+ ul li{
+  list-style-type: none;
+
+}
+
+textarea{
+  resize: none;
+}
+h1, h3{
+  display: inline-block;
+}
+
+h1{
+  font-size:40px;
+}
+article, form{
+  background-color:   #F8F8FF;
+  padding: 50px;
+}
+
+form{
+  padding-bottom: 50px;
+}
+button, .timeStamp{
+  display: block;
+}
+
+.timeStamp{
+  font-size: smaller;
+}
+.content{
+  display: block;
+}
+
+.post, ul{
+  border: 1px solid #000;
+  margin: 5px auto;
+  padding: 15px;
+}
+
+#submit, #delete{
+  display: inline-block;
+  margin-right: 50px;
+  float: left;
+}
+
+ul{
+  padding-bottom: 40px;
+}
