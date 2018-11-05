@@ -15,7 +15,7 @@ $date;
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="master.css" media="screen" title="no title">
+  <link rel="stylesheet" href="mister.css" media="screen" title="no title">
   <meta charset="utf-8">
   <title>My Wardrobe - Post an Outfit</title>
     <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
@@ -40,7 +40,7 @@ $date;
         <input type="text" name="category" value="" id="category">
       </li>
       <li>
-        <input type="submit" value="Submit Blog">
+        <input type="submit" value="Submit Look">
       </li>
     </ul>
 

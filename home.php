@@ -14,11 +14,24 @@ $date;
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="master.css" media="screen" title="no title">
+  <link rel="stylesheet" href="mister.css" media="screen" title="no title">
   <meta charset="utf-8">
   <title>Online Wardrobe</title>
 </head>
-<body>
+<body id="top">
+    <div id="user">
+	
+		<a href="login.php">Login </a>|<a href="register.php"> Register</a>
+	
+	</div>
+    <nav id = "mainnav">
+		<ul>
+				<li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Posts</a></li>
+				<li><a href="membership.php">Membership</a></li>
+				<li><a href="register.php">Register</a></li>
+		</ul>
+	</nav>
   <article class="">
     <h1>Seasonal Lookbook</h1>
     <span class = "newPost"><a href="newpost.php">New Look</a></span>

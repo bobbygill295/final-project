@@ -12,7 +12,7 @@ if (strlen($title) < 1 || strlen($content) < 1) {
 echo '<!DOCTYPE html>
   <html>
     <head>
-    <link rel="stylesheet" href="master.css" media="screen" title="no title">
+    <link rel="stylesheet" href="mister.css" media="screen" title="no title">
       <meta charset="utf-8">
       <script>
       function goBack() {

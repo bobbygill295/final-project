@@ -23,7 +23,7 @@ $content = $row['content'];
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="master.css" media="screen" title="no title">
+  <link rel="stylesheet" href="mister.css" media="screen" title="no title">
   <meta charset="utf-8">
      <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
   <script>tinymce.init({ selector:'textarea' });</script>
@@ -31,7 +31,7 @@ $content = $row['content'];
 </head>
 <body>
   <form class="" action="update.php" method="post">
-    <h1>My Amazing Blog</h1>
+    <h1>My Look</h1>
     <ul>
       <li>
         <input type="hidden" name="id" value="<?=$id?>">
@@ -43,7 +43,7 @@ $content = $row['content'];
         <textarea name="content" rows = "10" cols = "90" id="content"><?=$content?></textarea>
       </li>
       <li>
-        <input id = "submit" type="submit" value="Update Blog" name = "edit">
+        <input id = "submit" type="submit" value="Update Look" name = "edit">
         <input id = "delete" type="submit" value="Delete" name = "delete">
       </li>
     </ul>
